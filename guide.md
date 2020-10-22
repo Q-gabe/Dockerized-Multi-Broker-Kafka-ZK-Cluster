@@ -43,7 +43,7 @@ This document is meant as an in-depth walkthrough into running the setup in Dock
 
     Alternatively, you should observe the same on Docker Desktop as well:
 
-    ![DockerDesktop](https://github.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/raw/master/assets/dockerdesktop.png)
+    ![DockerDesktop](https://raw.githubusercontent.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/main/assets/dockerdesktop.png)
 
 
 ## **Stage 2** – Creating a new Topic
@@ -275,7 +275,7 @@ Zookeepers are configured to run in replicated mode/quorum. Ports 2888 and 3888 
 Kafka brokers are configured to be fully connected to all Zookeeper servers on their client port. For inter-broker communication, Kafka brokers advertises and listens on an unpublished port 9092 (Note that communication happens internally so hostnames can be resolved). To communicate with the external network, the port 32001, 32002 and 32003 are mapped to external host ports.
 
 ### Network Topology
-![Network Topology](https://github.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/raw/master/assets/NetworkDiagram.png)
+![Network Topology](https://raw.githubusercontent.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/main/assets/NetworkDiagram.png)
 
 
 ## **Appendix** – Helpful Links

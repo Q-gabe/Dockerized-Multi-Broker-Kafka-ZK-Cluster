@@ -5,8 +5,11 @@ A multi-broker Kafka cluster setup managed by a Zookeeper ensemble configured to
 This is a quick start guide. For a more in-depth guide, please check [guide.md](https://github.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/blob/master/guide.md). _(Highly recommended if you are new to running Kafka on Docker)_
 
 ### Requirements
-* Ensure you have Docker and Docker Compose installed.
-* Ensure that you have kafkacat installed.
+* Ensure you have [Docker](https://docs.docker.com/get-docker/) and [Docker Compose]() installed.
+  
+  (Alternatively, install [Docker Desktop](https://www.docker.com/products/docker-desktop) which installs both)
+
+* Ensure that you have [kafkacat](https://github.com/edenhill/kafkacat) installed.
 
 ### Setting up
 1. Clone the repository and navigate to it.
@@ -56,12 +59,12 @@ This is a quick start guide. For a more in-depth guide, please check [guide.md](
 
 8. Test steps 4-6 again to observe that messaging is still working.
 
-For observing fault tolerance in the case of controller Broker or leader Zookeeper server, please check [the first](https://github.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/blob/master/guide.md#stage-4-observing-fault-tolerance-leader-partition-&-controller-re-election) and [the second section](https://github.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/blob/master/guide.md#stage-5-observing-fault-tolerance-zookeeper-leader-re-election) on Observing Tolerance of the guide.
+For observing fault tolerance in the case of controller Broker or leader Zookeeper server, please check [the first](https://github.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/blob/master/guide.md#stage-4---observing-fault-tolerance-leader-partition--controller-re-election) and [the second section](https://github.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/blob/master/guide.md#stage-5---observing-fault-tolerance-zookeeper-leader-re-election) on Observing Tolerance of the guide.
 
 ## Network topology
-![Network Topology](https://github.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/raw/master/assets/NetworkDiagram.png)
+![Network Topology](https://raw.githubusercontent.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/main/assets/NetworkDiagram.png)
 
-For an explanation on the network, please check [the network appendix](https://github.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/blob/master/guide.md#appendix-network-setup) of the guide.
+For an explanation on the network, please check [the network appendix](https://github.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/blob/master/guide.md#appendix--network-setup) of the guide.
 
 ## Helpful links
 Here are a few links that helped me a substantial bit:
