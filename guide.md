@@ -43,7 +43,7 @@ This document is meant as an in-depth walkthrough into running the setup in Dock
 
     Alternatively, you should observe the same on Docker Desktop as well:
 
-    ![DockerDesktop](https://raw.githubusercontent.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/main/assets/dockerdesktop.png)
+    <img alt="DockerDesktop" src="https://raw.githubusercontent.com/Q-gabe/Dockerized-Multi-Broker-Kafka-ZK-Cluster/main/assets/dockerdesktop.png" width="400"></img>
 
 
 ## **Stage 2** – Creating a new Topic
